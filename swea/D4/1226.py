@@ -1,5 +1,4 @@
-# 미로1 
-# 미로1
+# 1226 - 미로1 
 
 '''
 1. 
@@ -30,7 +29,9 @@ for tc in range(1, T+1):
             if arr[i][j] == 2: 
                 r = i
                 c = j
-            elif :
+            elif arr[i][j] == 2:
+                goal_r = i
+                goal_c = j
 
     
 
