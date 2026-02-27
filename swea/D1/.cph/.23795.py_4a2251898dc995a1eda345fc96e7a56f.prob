@@ -1,0 +1,1 @@
+{"name":"Local: 23795","url":"c:\\Users\\SSAFY\\Desktop\\algorithm\\swea\\D1\\23795.py","tests":[{"id":1772174846836,"input":"1\n5\n0 0 0 1 0\n1 0 1 1 0\n0 0 1 0 2\n1 0 0 0 0\n1 1 1 1 0","output":"#1 9"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\SSAFY\\Desktop\\algorithm\\swea\\D1\\23795.py","group":"local","local":true}

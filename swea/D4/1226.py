@@ -32,12 +32,12 @@ for tc in range(1, T+1):
             elif arr[i][j] == 2:
                 goal_r = i
                 goal_c = j
-    
-    # 방문 리스트 배열 생성 
 
     
 
     
     bfs(r,c)
+
+    
 
     print(f'#{tc} {answer}')
