@@ -6,7 +6,7 @@ for tc in range(1, T+1):
     N = int(input())
     arr = [list(map(int, input().split())) for _ in range(N)]
 
-    xr = xc = 0
+    xr = xc = 0 # 괴물 좌표
     count = 0
 
     for r in range(N):
