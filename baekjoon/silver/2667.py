@@ -26,7 +26,7 @@ def dfs(r, c):
 
         # 범위 안이면서 집이 있는 곳(1)이면 
         if 0 <= nr < N and 0 <= nc < N and danji[nr][nc] == 1:
-            count += dfs(nr, nc)    # 
+            count += dfs(nr, nc)    # 인접한 칸을 탐색하여 얻은 집의 개수(반환값)를 현재 count에 더함
 
     return count    # 해당 단지의 총 집 개수 반환 
 
