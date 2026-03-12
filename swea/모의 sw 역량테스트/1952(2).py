@@ -22,3 +22,15 @@ def dfs(month, fee):
     dfs(month+3, fee + quater_fee)
 
 
+T = int(input())
+
+for tc in range(1, T+1):
+    day_fee, month_fee, quater_fee, answer = map(int, input().split())
+    # answer : 이 문제는 최대값이 정해져있음 -> 1년(연간이용권)
+    days = list(map(int, input().split())) # 수영 계획
+
+    dfs(0, 0) # 1월의 수영계획은 0번 인덱스 # 누적 요금은 0
+    
+    print(f"#{tc} {answer}")
+
+
